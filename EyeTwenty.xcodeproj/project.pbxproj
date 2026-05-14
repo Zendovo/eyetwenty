@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27AF48262002836B35109D7C /* FullScreenOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C527B3E6E7A5EA34FBDBF /* FullScreenOverlayView.swift */; };
-		2E30A62C26C9418101A0FC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC150AECF4D8FA30F34E77 /* AppDelegate.swift */; };
-		50E777C2BAE6D94CCEC0BCBF /* EyeTwentyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59040C5D66D8A6209E3D4C3 /* EyeTwentyApp.swift */; };
-		7A2F8A5E2C0B4E67A0AF83BA /* SimpleNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7B02075B314BA1A3F05A9E /* SimpleNotificationView.swift */; };
-		84D3412BAF3A43C1B7BB9D46 /* ScreenSharingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39043B6D57EA4EB8A8E3E6ED /* ScreenSharingDetector.swift */; };
-		9C910542D4154C83A4B241DF /* NotificationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779846758B9E45068AB3B276 /* NotificationStyle.swift */; };
-		F4EB47B6ED024E0AB5273303 /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7454F0C5C847B2A29284C0 /* AppDelegate+Notifications.swift */; };
+		02B98348357061460E0C5E61 /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB279B672B695EF230B7C5B /* AppDelegate+Notifications.swift */; };
+		10CC5A1FEAB2C83FA74DE1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D56B4CCD420223789FC263 /* AppDelegate.swift */; };
+		203000EE9B72FFD53E912EE1 /* FullScreenOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A86D4F150CA785B7F2469E4 /* FullScreenOverlayView.swift */; };
+		3594201E0EAFA22EDC87ADC1 /* SimpleNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC0CA89EDDED77E714725C /* SimpleNotificationView.swift */; };
+		49AF8267DBEB2BED89266753 /* ScreenSharingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD933C0CC2FD59F71794ABF /* ScreenSharingDetector.swift */; };
+		5F47700116487968D0D61CFE /* NotificationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A108356A7F5C3DFDFF908A3 /* NotificationStyle.swift */; };
+		80ED7D4506D1C8726116634C /* EyeTwentyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48776C883D26D343AF1D1E33 /* EyeTwentyApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E7454F0C5C847B2A29284C0 /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
-		39043B6D57EA4EB8A8E3E6ED /* ScreenSharingDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSharingDetector.swift; sourceTree = "<group>"; };
-		4C7B02075B314BA1A3F05A9E /* SimpleNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotificationView.swift; sourceTree = "<group>"; };
-		779846758B9E45068AB3B276 /* NotificationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStyle.swift; sourceTree = "<group>"; };
-		A59040C5D66D8A6209E3D4C3 /* EyeTwentyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTwentyApp.swift; sourceTree = "<group>"; };
-		A6FC150AECF4D8FA30F34E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B27C527B3E6E7A5EA34FBDBF /* FullScreenOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenOverlayView.swift; sourceTree = "<group>"; };
+		2A86D4F150CA785B7F2469E4 /* FullScreenOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenOverlayView.swift; sourceTree = "<group>"; };
+		3BD933C0CC2FD59F71794ABF /* ScreenSharingDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSharingDetector.swift; sourceTree = "<group>"; };
+		48776C883D26D343AF1D1E33 /* EyeTwentyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTwentyApp.swift; sourceTree = "<group>"; };
+		9A108356A7F5C3DFDFF908A3 /* NotificationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStyle.swift; sourceTree = "<group>"; };
+		C5DC0CA89EDDED77E714725C /* SimpleNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotificationView.swift; sourceTree = "<group>"; };
+		DBB279B672B695EF230B7C5B /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
 		F0638E36DA60F63550CB5D43 /* EyeTwenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeTwenty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D56B4CCD420223789FC263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -34,6 +34,14 @@
 				61B0EF8A33321D704ED6BB18 /* EyeTwenty */,
 				1846BAEEDE18125C3F422E9D /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		154AF80A677C18F0CA250F26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A108356A7F5C3DFDFF908A3 /* NotificationStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		1846BAEEDE18125C3F422E9D /* Products */ = {
@@ -47,16 +55,40 @@
 		61B0EF8A33321D704ED6BB18 /* EyeTwenty */ = {
 			isa = PBXGroup;
 			children = (
-				A6FC150AECF4D8FA30F34E77 /* AppDelegate.swift */,
-				2E7454F0C5C847B2A29284C0 /* AppDelegate+Notifications.swift */,
-				A59040C5D66D8A6209E3D4C3 /* EyeTwentyApp.swift */,
-				B27C527B3E6E7A5EA34FBDBF /* FullScreenOverlayView.swift */,
-				779846758B9E45068AB3B276 /* NotificationStyle.swift */,
-				39043B6D57EA4EB8A8E3E6ED /* ScreenSharingDetector.swift */,
-				4C7B02075B314BA1A3F05A9E /* SimpleNotificationView.swift */,
+				DB37E1A0C122BD35C1445608 /* App */,
+				154AF80A677C18F0CA250F26 /* Models */,
+				7D07FF24303CC5A9ED23940F /* Services */,
+				64E6521DCD23A81356329341 /* Views */,
 			);
 			name = EyeTwenty;
 			path = Sources/EyeTwenty;
+			sourceTree = "<group>";
+		};
+		64E6521DCD23A81356329341 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A86D4F150CA785B7F2469E4 /* FullScreenOverlayView.swift */,
+				C5DC0CA89EDDED77E714725C /* SimpleNotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D07FF24303CC5A9ED23940F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3BD933C0CC2FD59F71794ABF /* ScreenSharingDetector.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DB37E1A0C122BD35C1445608 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F5D56B4CCD420223789FC263 /* AppDelegate.swift */,
+				DBB279B672B695EF230B7C5B /* AppDelegate+Notifications.swift */,
+				48776C883D26D343AF1D1E33 /* EyeTwentyApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,13 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E30A62C26C9418101A0FC08 /* AppDelegate.swift in Sources */,
-				50E777C2BAE6D94CCEC0BCBF /* EyeTwentyApp.swift in Sources */,
-				27AF48262002836B35109D7C /* FullScreenOverlayView.swift in Sources */,
-				9C910542D4154C83A4B241DF /* NotificationStyle.swift in Sources */,
-				84D3412BAF3A43C1B7BB9D46 /* ScreenSharingDetector.swift in Sources */,
-				7A2F8A5E2C0B4E67A0AF83BA /* SimpleNotificationView.swift in Sources */,
-				F4EB47B6ED024E0AB5273303 /* AppDelegate+Notifications.swift in Sources */,
+				02B98348357061460E0C5E61 /* AppDelegate+Notifications.swift in Sources */,
+				10CC5A1FEAB2C83FA74DE1F1 /* AppDelegate.swift in Sources */,
+				80ED7D4506D1C8726116634C /* EyeTwentyApp.swift in Sources */,
+				203000EE9B72FFD53E912EE1 /* FullScreenOverlayView.swift in Sources */,
+				5F47700116487968D0D61CFE /* NotificationStyle.swift in Sources */,
+				49AF8267DBEB2BED89266753 /* ScreenSharingDetector.swift in Sources */,
+				3594201E0EAFA22EDC87ADC1 /* SimpleNotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
