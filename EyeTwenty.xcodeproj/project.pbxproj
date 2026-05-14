@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27AF48262002836B35109D7C /* FullScreenOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C527B3E6E7A5EA34FBDBF /* FullScreenOverlayView.swift */; };
+		2E30A62C26C9418101A0FC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC150AECF4D8FA30F34E77 /* AppDelegate.swift */; };
+		50E777C2BAE6D94CCEC0BCBF /* EyeTwentyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59040C5D66D8A6209E3D4C3 /* EyeTwentyApp.swift */; };
+		7A2F8A5E2C0B4E67A0AF83BA /* SimpleNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7B02075B314BA1A3F05A9E /* SimpleNotificationView.swift */; };
+		84D3412BAF3A43C1B7BB9D46 /* ScreenSharingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39043B6D57EA4EB8A8E3E6ED /* ScreenSharingDetector.swift */; };
+		9C910542D4154C83A4B241DF /* NotificationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779846758B9E45068AB3B276 /* NotificationStyle.swift */; };
+		F4EB47B6ED024E0AB5273303 /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7454F0C5C847B2A29284C0 /* AppDelegate+Notifications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E7454F0C5C847B2A29284C0 /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
+		39043B6D57EA4EB8A8E3E6ED /* ScreenSharingDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSharingDetector.swift; sourceTree = "<group>"; };
+		4C7B02075B314BA1A3F05A9E /* SimpleNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotificationView.swift; sourceTree = "<group>"; };
+		779846758B9E45068AB3B276 /* NotificationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStyle.swift; sourceTree = "<group>"; };
+		A59040C5D66D8A6209E3D4C3 /* EyeTwentyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTwentyApp.swift; sourceTree = "<group>"; };
+		A6FC150AECF4D8FA30F34E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B27C527B3E6E7A5EA34FBDBF /* FullScreenOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenOverlayView.swift; sourceTree = "<group>"; };
+		F0638E36DA60F63550CB5D43 /* EyeTwenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeTwenty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C4B2AC5E783ADBA1188B3AA = {
+			isa = PBXGroup;
+			children = (
+				61B0EF8A33321D704ED6BB18 /* EyeTwenty */,
+				1846BAEEDE18125C3F422E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1846BAEEDE18125C3F422E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0638E36DA60F63550CB5D43 /* EyeTwenty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B0EF8A33321D704ED6BB18 /* EyeTwenty */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC150AECF4D8FA30F34E77 /* AppDelegate.swift */,
+				2E7454F0C5C847B2A29284C0 /* AppDelegate+Notifications.swift */,
+				A59040C5D66D8A6209E3D4C3 /* EyeTwentyApp.swift */,
+				B27C527B3E6E7A5EA34FBDBF /* FullScreenOverlayView.swift */,
+				779846758B9E45068AB3B276 /* NotificationStyle.swift */,
+				39043B6D57EA4EB8A8E3E6ED /* ScreenSharingDetector.swift */,
+				4C7B02075B314BA1A3F05A9E /* SimpleNotificationView.swift */,
+			);
+			name = EyeTwenty;
+			path = Sources/EyeTwenty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B429FFFAF6FD7453D8DD9F7 /* EyeTwenty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B78DE6B03237D65CC29528 /* Build configuration list for PBXNativeTarget "EyeTwenty" */;
+			buildPhases = (
+				816D689D21725FB15DEDC3DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeTwenty;
+			packageProductDependencies = (
+			);
+			productName = EyeTwenty;
+			productReference = F0638E36DA60F63550CB5D43 /* EyeTwenty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05287C8E0AC4EBF1EDE46A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 4F3836290A2F88D8990920EE /* Build configuration list for PBXProject "EyeTwenty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0C4B2AC5E783ADBA1188B3AA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1846BAEEDE18125C3F422E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B429FFFAF6FD7453D8DD9F7 /* EyeTwenty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816D689D21725FB15DEDC3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E30A62C26C9418101A0FC08 /* AppDelegate.swift in Sources */,
+				50E777C2BAE6D94CCEC0BCBF /* EyeTwentyApp.swift in Sources */,
+				27AF48262002836B35109D7C /* FullScreenOverlayView.swift in Sources */,
+				9C910542D4154C83A4B241DF /* NotificationStyle.swift in Sources */,
+				84D3412BAF3A43C1B7BB9D46 /* ScreenSharingDetector.swift in Sources */,
+				7A2F8A5E2C0B4E67A0AF83BA /* SimpleNotificationView.swift in Sources */,
+				F4EB47B6ED024E0AB5273303 /* AppDelegate+Notifications.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		471B3ADFFA299B1FA7A3DCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyetwenty.EyeTwenty;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EA2CBA88CBC949F89B9B2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		61D691CD44EF43838351AA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A85A58B586A1B1BD5D2A0AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyetwenty.EyeTwenty;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3836290A2F88D8990920EE /* Build configuration list for PBXProject "EyeTwenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D691CD44EF43838351AA1E /* Debug */,
+				4EA2CBA88CBC949F89B9B2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97B78DE6B03237D65CC29528 /* Build configuration list for PBXNativeTarget "EyeTwenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85A58B586A1B1BD5D2A0AE0 /* Debug */,
+				471B3ADFFA299B1FA7A3DCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05287C8E0AC4EBF1EDE46A8 /* Project object */;
+}

@@ -1,0 +1,14 @@
+name: EyeTwenty
+options:
+  bundleIdPrefix: com.eyetwenty
+targets:
+  EyeTwenty:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources: [Sources/EyeTwenty]
+    settings:
+      CODE_SIGN_IDENTITY: "-"
+      ENABLE_USER_SCRIPT_SANDBOXING: NO
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_LSUIElement: YES
