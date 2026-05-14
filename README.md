@@ -4,11 +4,17 @@ A macOS menu bar widget that helps you follow the 20-20-20 rule to prevent eye s
 
 The 20-20-20 rule: Every 20 minutes, look at something 20 feet away for 20 seconds.
 
+<p align="center">
+  <img src="assets/menubaricon.png" width="300" alt="Menu Bar Icon">
+</p>
+
 ## Features
 
 - **Menu Bar Integration:** Sits quietly in your menu bar.
 - **Two Notification Styles:**
   - **Full Screen:** A tasteful overlay that covers your screen and counts down the 20 seconds.
+    <br>
+    <img src="assets/fullscreen.png" width="500" alt="Full Screen Overlay">
   - **Simple:** A standard macOS notification reminding you to take a break.
 - **Smart Detection:** Automatically pauses notifications when you are sharing your screen (e.g., during a Zoom or Teams meeting), so you aren't interrupted while presenting.
 
